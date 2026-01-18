@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9f2cf5bb456ab8e10c25c319589a1ad3",
+    "content-hash": "e08390dac0e67632a03e29c06c2f4424",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -189,6 +189,62 @@
                 }
             ],
             "time": "2024-02-09T16:56:22+00:00"
+        },
+        {
+            "name": "danjohnson95/pinout",
+            "version": "v2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/danjohnson95/pinout.git",
+                "reference": "fe6f78d7aa4b393a04bf2c0c11bc1b92593db217"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/danjohnson95/pinout/zipball/fe6f78d7aa4b393a04bf2c0c11bc1b92593db217",
+                "reference": "fe6f78d7aa4b393a04bf2c0c11bc1b92593db217",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "^10.10.0|^11.0|^12.0",
+                "illuminate/support": "^10.10.0|^11.0|^12.0",
+                "symfony/process": "^6.4|^7.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.4",
+                "larastan/larastan": "^2.7.0",
+                "mockery/mockery": "^1.4",
+                "orchestra/testbench": "^8.0|^9.0",
+                "pestphp/pest": "^1.20|^2.0",
+                "phpstan/phpstan-phpunit": "^1.1"
+            },
+            "type": "project",
+            "extra": {
+                "laravel": {
+                    "aliases": {
+                        "PinService": "DanJohnson95\\Pinout\\Facades\\PinService"
+                    },
+                    "providers": [
+                        "DanJohnson95\\Pinout\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "DanJohnson95\\Pinout\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Dan Johnson",
+                    "email": "github@danjohnson.xyz"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/danjohnson95/pinout/issues",
+                "source": "https://github.com/danjohnson95/pinout/tree/v2.0.1"
+            },
+            "time": "2025-03-02T21:43:33+00:00"
         },
         {
             "name": "dasprid/enum",
