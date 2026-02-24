@@ -301,4 +301,4 @@ class MCP23S17(object):
         assert(self.isInitialized)
 
         self._writeRegister(register, data & 0xFF)
-		self._writeRegister(register + 1, data >> 8)
+        self._writeRegister(register + 1, data >> 8)
