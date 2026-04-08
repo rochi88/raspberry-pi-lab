@@ -6,7 +6,7 @@ try:
     mcp1 = MCP23S17(ce=1)
     mcp1.open()
 
-    for x in range(0, 15):
+    for x in range(0, 16):
         mcp1.setDirection(x, mcp1.DIR_INPUT)
         mcp1.setPullupMode(x, mcp1.PULLUP_ENABLED)
 
